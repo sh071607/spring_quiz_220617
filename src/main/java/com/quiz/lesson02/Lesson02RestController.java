@@ -19,7 +19,7 @@ public class Lesson02RestController {
 	@RequestMapping("/lesson02/quiz01")
 	public List<Store> quiz01() {
 		List<Store> StoreList = storeBO.getStoreList();
-		return StoreList;
+		return StoreList;	// 객체 -> json
 	}
 
 }

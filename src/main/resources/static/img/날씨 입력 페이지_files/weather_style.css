@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#wrap {width:1200px;}
+
+nav { background-color: cornflowerblue;}
+
+.contents {height:1000px;}
+
+footer {height:100px}
+
+.font-coler {color:white;
+			 font-weight: bold;
+			 font-size: 20px;}
+			 
+.font-coler:hover {color: azure; border: 2px soid white;}

@@ -11,6 +11,7 @@ import com.quiz.lesson02.model.Store;
 @Service
 public class StoreBO {
 	
+	// DI(Dependency Injection): 의존성 주입
 	@Autowired
 	private StoreDAO storeDAO;
 	
